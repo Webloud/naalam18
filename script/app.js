@@ -1835,7 +1835,7 @@ webpackJsonp([0], [function(e, t, n) {
             play: "\\e90c",
             forward: "\\e901",
             fb: "\\e913",
-            twitter: "\\e914",
+            twitter: "\\e908",
             instagram: "\\e912",
             scroll: "\\e90a",
             github: "\\e906",
@@ -2939,24 +2939,24 @@ webpackJsonp([0], [function(e, t, n) {
                     }, m.default.createElement(T, null, "Register")), m.default.createElement(k.default, {
                         href: "http://www.naalam.in/2017"
                     }, m.default.createElement(T, null, "NAALAM'17")), m.default.createElement(T, {
-                        href: "mailto:mail@naalam.in",
+                        href: "mailto:naalam@nuals.ac.in",
                         target: "_blank"
                     }, "contact"), m.default.createElement(O, {
-                        href: "https://www.instagram.com/naalam",
-                        target: "_blank"
-                    }, m.default.createElement(_.default, {
-                        size: 35,
-                        fontSize: 16
-                    }, m.default.createElement(C.default, {
-                        name: "instagram"
-                    }))), m.default.createElement(O, {
-                        href: "https://twitter.com/naalam",
+                        href: "https://goo.gl/maps/sCGCuSnHQ772",
                         target: "_blank"
                     }, m.default.createElement(_.default, {
                         size: 35,
                         fontSize: 16
                     }, m.default.createElement(C.default, {
                         name: "twitter"
+                    }))), m.default.createElement(O, {
+                        href: "https://www.instagram.com/naalam18",
+                        target: "_blank"
+                    }, m.default.createElement(_.default, {
+                        size: 35,
+                        fontSize: 16
+                    }, m.default.createElement(C.default, {
+                        name: "instagram"
                     }))), m.default.createElement(O, {
                         href: "https://www.facebook.com/nualsnaalam/",
                         target: "_blank"
