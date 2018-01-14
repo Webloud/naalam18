@@ -2933,9 +2933,9 @@ webpackJsonp([0], [function(e, t, n) {
                 key: "render",
                 value: function() {
                     return m.default.createElement(S, null, m.default.createElement(b.default, null), m.default.createElement(k.default, {
-                        href: "/events"
+                        href: "events/"
                     }, m.default.createElement(T, null, "Events")), m.default.createElement(k.default, {
-                        href: "/events"
+                        href: "events/"
                     }, m.default.createElement(T, null, "Register")), m.default.createElement(k.default, {
                         href: "#"
                     }, m.default.createElement(T, null, "10 YEARS OF NAALAM")), m.default.createElement(T, {
