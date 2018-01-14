@@ -14399,7 +14399,7 @@ webpackJsonp([0], [function(e, t, n) {
                     }), m.default.createElement("ul", null, m.default.createElement("li", {
                         onClick: this.handleClose
                     }, m.default.createElement("a", {
-                        href: "/events"
+                        href: "events"
                     }, "Register")), m.default.createElement("li", {
                         onClick: this.handleClose
                     }, m.default.createElement("a", {
