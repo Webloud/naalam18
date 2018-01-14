@@ -212,7 +212,7 @@ window.__NEXT_REGISTER_PAGE('/', function() {
                             }, x.default.createElement("h2", null, "SKY ABOVE ME - EARTH BELOW ME - FIRE WITHIN ME")) : this.props.animationProgress > this.progressStep ? x.default.createElement(L.default, {
                                 animationProgress: this.props.animationProgress,
                                 progressStep: this.progressStep
-                            }, x.default.createElement("h3", null, "FEBRUARY 2018"), x.default.createElement("h2", null, "3 DAYS  | 3.5 Lakh + prize | 25+ events")) : x.default.createElement(L.default, {
+                            }, x.default.createElement("h3", null, "FEBRUARY 2018"), x.default.createElement("h2", null, "FEB 9-11 | 3.5 Lakh + prize | 25+ events")) : x.default.createElement(L.default, {
                                 animationProgress: this.props.animationProgress,
                                 progressStep: this.progressStep,
                                 fadeIn: !1

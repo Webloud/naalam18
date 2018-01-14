@@ -620,9 +620,18 @@
         <script async="" id="__NEXT_PAGE__/_error" type="text/javascript" src="script/index_error.js"></script>
         <div></div>
 
-        <script type="text/javascript" src="script/jquery.min.js.js" async=""></script>
+        <script type="text/javascript" src="script/jquery.min.js" async=""></script>
 
         <script type="text/javascript" src="script/app.js" async=""></script>
+
+        <script type="text/javascript">
+            function scrollToSponsors()
+            {
+                $('html, body').animate({
+                    scrollTop: $('.kABmZH').offset().top - 100
+                }, 500);
+            }
+        </script>
     </div>
  
 </body>

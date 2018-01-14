@@ -2937,8 +2937,8 @@ webpackJsonp([0], [function(e, t, n) {
                     }, m.default.createElement(T, null, "Events")), m.default.createElement(k.default, {
                         href: "/events"
                     }, m.default.createElement(T, null, "Register")), m.default.createElement(k.default, {
-                        href: "http://www.naalam.in/2017"
-                    }, m.default.createElement(T, null, "NAALAM'17")), m.default.createElement(T, {
+                        href: "#"
+                    }, m.default.createElement(T, null, "10 YEARS OF NAALAM")), m.default.createElement(T, {
                         href: "mailto:naalam@nuals.ac.in",
                         target: "_blank"
                     }, "contact"), m.default.createElement(O, {
@@ -14403,12 +14403,16 @@ webpackJsonp([0], [function(e, t, n) {
                     }, "Register")), m.default.createElement("li", {
                         onClick: this.handleClose
                     }, m.default.createElement("a", {
+                        href: "javascript:scrollToSponsors()"
+                    }, "SPONSORS")), m.default.createElement("li", {
+                        onClick: this.handleClose
+                    }, m.default.createElement("a", {
                         href: "http://www.naalam.in"
                     }, "NAALAM '18")), m.default.createElement("li", {
                         onClick: this.handleClose
                     }, m.default.createElement("a", {
-                        href: "http://www.naalam.in/2017"
-                    }, "NAALAM '17"))))
+                        href: "#"
+                    }, "10 YEARS OF NAALAM"))))
                 }
             }]), t
         }(m.default.PureComponent);
