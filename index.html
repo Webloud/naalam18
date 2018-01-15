@@ -2,7 +2,7 @@
 <html>
     <head>
 
-        <link rel="preload" href="script/index" as="script"/>
+        <link rel="preload" href="script/index.js" as="script"/>
         <link rel="preload" href="script/index_error.js" as="script"/>
         <link rel="preload" href="script/app.js" as="script"/>
 
@@ -666,7 +666,72 @@
             }
         </script>
 
-        <script async="" id="__NEXT_PAGE__/" type="text/javascript" src="script/index"></script>
+        <style type="text/css">
+            .contact-outer-box{
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0,0,0,0.8);
+                z-index: 999999;
+                display: none;
+            }
+            .contact-box{
+                position: fixed;
+                left: 50%;
+                top: 50%;
+                transform:translateX(-50%) translateY(-50%);
+                width: 340px;
+                max-height: 400px;
+                max-width: 95%;
+                height: 95%;
+                border-radius: 3px;
+                padding: 15px;
+                box-shadow: 0 3px 2px rgba(0,0,0,0.4);
+                border:1px solid #CCCCCC;
+                background: #FFFFFF;
+                display: inline-block;  
+            }   
+            .contact-close{
+                color: #333333;
+                float: right;
+                display: block;
+                text-decoration: none;
+            }
+            .contact-box .block{
+                display: block;
+                margin-top: 22px;
+                text-align: center;
+            }
+        </style>
+        <div class="contact-outer-box">
+            <div class="contact-box">
+                <a href="javascript:closeContact()" class="contact-close"><span class="Icon-s19nlxzn-0 iGvdqY" name="close"></span></a>
+                <p class="block">
+                    <b>CONVENER</b><br/>
+                    Sachin Peedikaparambil<br/>
+                    9745220145
+                </p>
+                <p class="block">
+                    <b>FORUM SECRETARY</b><br/>
+                    Ajiz M.K.<br/>
+                    7558820133
+                </p>
+                <p class="block">
+                    <b>CO-CONVENER</b><br/>
+                    Arjun Varma<br/>
+                    8921798533
+                </p>
+                <p class="block">
+                    <b>PR HEAD</b><br/>
+                    Anisha V.R.<br/>
+                    8289940862
+                </p>
+            </div>            
+        </div>
+
+        <script async="" id="__NEXT_PAGE__/" type="text/javascript" src="script/index.js"></script>
         <script async="" id="__NEXT_PAGE__/_error" type="text/javascript" src="script/index_error.js"></script>
         <div></div>
 
@@ -680,6 +745,14 @@
                 $('html, body').animate({
                     scrollTop: $('.kABmZH').offset().top - 100
                 }, 500);
+            }
+            function closeContact()
+            {
+                $(".contact-outer-box").fadeOut();
+            }
+            function openContact()
+            {
+                $(".contact-outer-box").fadeIn();
             }
         </script>
     </div>
