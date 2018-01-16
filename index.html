@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
 
@@ -704,6 +704,26 @@
                 margin-top: 22px;
                 text-align: center;
             }
+            .countdown-item{
+                display:inline-block;
+                text-align: center;
+                width: 75px;
+            }
+            .countdown-sep{
+                display: inline-block;
+                position: relative;
+                top: -50px;
+            }
+            .countdown-value{
+                display:block;
+                line-height: 1;
+                font-size: 90px;
+            }
+            .countdown-name{
+                display:block;
+                font-size:25px;
+                line-height: 0.4;
+            }
         </style>
         <div class="contact-outer-box">
             <div class="contact-box">
@@ -754,8 +774,37 @@
             {
                 $(".contact-outer-box").fadeIn();
             }
+
+                var countDownDate = new Date("Feb 8, 2018 9:00:00").getTime();
+
+                // Update the count down every 1 second
+                var x = setInterval(function() {
+
+                    // Get todays date and time
+                    var now = new Date().getTime();
+                    
+                    // Find the distance between now an the count down date
+                    var distance = countDownDate - now;
+                    
+                    // Time calculations for days, hours, minutes and seconds
+                    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                    hours = hours<=9?"0"+hours:hours;
+                    minutes = minutes<=9?"0"+minutes:minutes;
+                    seconds = seconds<=9?"0"+seconds:seconds;
+                    
+                    // Output the result in an element with id="demo"
+                $(".izzGBh").next().find("h2").html('LET\'S COUNT DOWN<br/><span class="countdown-item"><span class="countdown-value">'+days+'</span><span class="countdown-name">DAYS</span></span><span class="countdown-sep">:</span><span class="countdown-item"><span class="countdown-value">'+hours+'</span><span class="countdown-name">HOURS</span></span><span class="countdown-sep">:</span><span class="countdown-item"><span class="countdown-value">'+minutes+'</span><span class="countdown-name">MINS</span></span><span class="countdown-sep">:</span><span class="countdown-item"><span class="countdown-value">'+seconds+'</span><span class="countdown-name">SECS</span></span>');
+                    
+                    // If the count down is over, write some text 
+                    if (distance < 0) {
+                        clearInterval(x);
+                        $(".hHAdoE h2").html('LET\'S COUNT DOWN<br/><span class="countdown-item"><span class="countdown-value">'+00+'</span><span class="countdown-name">DAYS</span></span><span class="countdown-sep">:</span><span class="countdown-item"><span class="countdown-value">'+00+'</span><span class="countdown-name">HOURS</span></span><span class="countdown-sep">:</span><span class="countdown-item"><span class="countdown-value">'+00+'</span><span class="countdown-name">MINS</span></span><span class="countdown-sep">:</span><span class="countdown-item"><span class="countdown-value">'+00+'</span><span class="countdown-name">SECS</span></span>');                 }
+                }, 200);
         </script>
     </div>
- 
-</body>
+</body> 
 </html>
