@@ -2,32 +2,41 @@ var events = {
   "index":{
     category : "Featured",
     events : {
-      "e6":{
-        name : "ACTION REPLAY",
-        title : "ACTING",
+      "e4":{
+        name : "CHOREONITE",
+        title : "GROUP DANCE",
+        prize : "60K",
+        image : "choreonite.jpg",
+        fee:"",
+        date:"",
+        contact: "VISHAL : 90611 28454<br/>ADAM : 98470 94867"
+      },
+      "e2":{
+        name : "ALANKARA",
+        title : "FASHION SHOW",
+        prize : "60K",
+        image : "alankara.jpg",
+        fee:"",
+        date:"",
+        contact: "JACOB : 97453 11097<br/>ALIKHA 99959 10346"
+      },
+      "e10":{
+        name : "MR AND MISS NAALAM",
+        title : "PERSONALITY CONTEST",
         prize : "10K",
-        image : "action_replay.jpg",
+        image : "mr_and_miss_naalam.jpg",
         fee:"",
         date:"",
-        contact: "ALAN SURESH : 94977 77783<br/>ABHIJITH MA : 83300 40420"
+        contact: "NEVIN : 94464 17885<br/>AKSHAR : 94969 30283"
       },
-      "e14":{
-        name : "GOLDEN FRAMES",
-        title : "SHORT FILM",
-        prize : "15K",
-        image : "short_film.jpg",
-        fee:"",
-        date:"",
-        contact: "TRILOK : 94953 95569<br/>KAILAS : 81578 32644"
-      },
-      "e7":{
-        name : "MIMICRY",
+      "e22":{
+        name : "VR EXPEIRIENCE & GAMING COMPETITION",
         title : "",
-        prize : "10K",
-        image : "mimicry.jpg",
+        prize : "",
+        image : "vr.jpg",
         fee:"",
         date:"",
-        contact: "SAURAV : 95625 57007<br/>KRISHNALAL : 94971 39956"
+        contact: ""
       }
     }
   },
